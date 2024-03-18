@@ -1,0 +1,242 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Roboto","Arial", sans-serif;
+
+}
+img {
+  display: block;
+}
+.container {
+  width: 1220px;
+  margin-inline: auto;
+  padding-inline: 20px;
+}
+.list-unstyle {
+  padding-inline-start: 0;
+  margin-block: 0;
+  list-style: none;
+}
+.site-header {
+  padding-block: 40px;
+}
+.header-inner {
+  display: flex;
+  align-items: center;
+}
+.header-logo {
+  margin-right: auto;
+}
+.site-nav {
+  margin-inline-end: 72px;
+}
+.site-nav-list {
+  display: flex;
+  column-gap: 72px;
+
+}
+
+.site-nav-link {
+  color: #373737;
+  font-weight: 500;
+  font-size: 17px;
+  font-weight: 500;
+  text-decoration-line: none;
+  
+}
+.header-apply-link {
+  display: block;
+  padding: 10px 36px;
+  font-weight: 500;
+  text-decoration-line: none;
+  border-radius: 11px;
+  border: 2px solid #717cff;
+
+}
+.hero {
+  padding-block-start: 88px;
+}
+
+.hero-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.wrapper-hero-title {
+  width: 632px;
+}
+.hero-title {
+  margin: 0 0 30px;
+  color: #2F2F2F;
+  font-size: 56px;
+  font-weight: 900;
+}
+.build {
+  color: #717cff;
+}
+.hero-title-desc {
+  margin: 0 0 42px;
+  color: #7d7d7d;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 38px;
+}
+.apply-link {
+  display:inline-flex;
+  column-gap:29px;
+  align-items:center;
+  padding: 12px 34px;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 40px;
+  border-radius: 11px;
+  background-color: #717cff;
+  color: #fff;  
+  text-decoration-line: none;
+  margin-block-end: 100px;
+
+}
+.icon-list {
+  display: flex;
+  align-items:center;
+  column-gap:15px;
+}
+.university {
+  padding-block: 55px;
+  background: #fafafa;
+}
+.university-title {
+  margin: 0 0 94px;
+  color: #373737;
+  text-align: center;
+  font-size: 23px;
+  font-weight: 500;
+  letter-spacing: 2.1px;
+  text-transform: uppercase;
+}
+.university-type-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 105px;
+}
+
+.dots-img {
+  margin-inline: auto;
+}
+.services {
+  padding-block: 122px 126px;
+}
+.wrapper-services-title {
+  width: 949px;
+  margin-inline: auto;
+  margin-block-end: 110px;
+  text-align: center;
+}
+.services-title {
+  margin: 0 0 25px;
+  color: #373737;
+  font-size: 37px;
+  line-height: 54px; 
+  letter-spacing: -0.463px;
+}
+.services-title-desc {
+  color: #7D7D7D;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 38px;
+  margin: 0;
+}
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap:56px 47px;
+}
+.services-item {
+  width: 344px;
+  padding:29px 17px 30px 31px;
+  box-shadow: 0px 0px 77px 0px rgba(0, 0, 0, 0.06);
+}
+.services-item-img {
+  margin-block-end: 30px;
+}
+.services-item-title {
+  margin: 0 0 9px;
+  color: #37474F;
+  font-size: 24px;
+  line-height: 37px;
+}
+.services-item-desc {
+  margin: 0 0 26px;
+  color: #37474fb8;
+  font-weight: 500;
+  line-height: 28px; 
+  letter-spacing: 0.444px;
+}
+.services-item-link {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  color: #717CFF;
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: 0.439px;
+  text-decoration-line: none;
+}
+.wrapper-news-title {
+  width: 949px;
+  margin-inline: auto;
+  text-align: center;
+  margin-bottom: 119px;
+}
+.news {
+  background-color: #fafafa;
+}
+.news-title {
+  margin: 0 0 25px;
+  color: #373737;
+  font-size: 37px;
+  line-height: 54px;
+  letter-spacing: -0.463px;
+}
+.news-title-desc {
+  margin: 0;
+  color: #7d7d7d;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 38px;
+}
+.news-item {
+  width: 344px;
+  padding-bottom: 62px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 6px 42px 0px #0000001a;
+}
+.news-item-img {
+  margin-bottom: 28px;
+}
+.wrapper-news-item-title {
+  margin-inline: 26px;
+}
+.news-list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 146px;
+}
+.wrapper-time {
+  margin-bottom: 15px;
+  display: flex;
+  gap: 12px;
+  align-items:center;
+}
+.news-link {
+  display: flex;
+  justify-content: center;
+  width: 220px;
+
+}
